@@ -32,7 +32,7 @@ class Test_app():
         # options = webdriver.ChromeOptions()
         # self.driver = webdriver.Chrome(service=service, options=options)
         self.driver=webdriver.Chrome()
-        self.driver.get('https://qa-dev.iome.ai')
+        self.driver.get('https://www.example.com')
         self.driver.maximize_window()
         self.driver.find_element(By.TAG_NAME, 'span').click()
         self.driver.find_element(By.TAG_NAME, 'input').send_keys(username)
